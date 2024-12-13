@@ -1,0 +1,5 @@
+{
+    "line_item" : {"paths": ["BW_weekly_reach"], "key": "Line Item Alternative ID", "type": "primary", "agg": "None"},
+    "Week" : {"paths": ["BW_weekly_reach"], "key": "Week", "type": "primary", "agg": "None"},
+    "Reach" : {"paths": ["BW_weekly_reach"], "key": "Reach", "type": "primary", "agg": "None"}
+}

@@ -1,0 +1,9 @@
+{
+    "Creative_ID" : {},
+    "Date" : {"paths": ["celtra_exposure"], "key": "Date (account)", "type": "primary", "agg": "key"},
+    "External_Creative_ID" : {"paths": ["celtra_exposure"], "key": "External creative ID", "type": "primary", "agg": "key"},
+    "External_lineitem_ID" : {"paths": ["celtra_exposure"], "key": "External line item ID", "type": "primary", "agg": "key"},
+    "Exposure_time" : {"paths": ["celtra_exposure"], "key": "Exposure time", "type": "primary", "agg": "sum"},
+    "Time Spent" : {"paths": ["celtra_exposure"], "key": "Time spent", "type": "primary", "agg": "sum"},
+    "Ad_expansions" : {"paths": ["celtra_exposure"], "key": "Ad expansions", "type": "primary", "agg": "sum"}
+}

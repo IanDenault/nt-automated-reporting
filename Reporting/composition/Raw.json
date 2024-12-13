@@ -1,0 +1,22 @@
+{
+    "line_item_name" : {"paths": ["BW_Daily"], "key": "line_item_name", "type": "primary","agg": "key"},
+    "line_item_alternative_id" : {"paths": ["BW_Daily"], "key": "line_item_alternative_id", "type": "primary", "agg": "key"},
+    "line_item_id" : {"paths": ["BW_Daily", "DV_Daily"], "key": "line_item_id", "type": "primary", "agg": "key"},
+    "creative_name" : {"paths": ["BW_Daily"], "key": "creative_name", "type": "primary","agg": "key"},
+    "creative_ID" : {"paths": ["BW_Daily", "DV_Daily"], "key": "creative_id", "type": "primary", "agg": "key"},
+    "day" : {"type" : "date", "format" : "yyyy-MM-dd", "day": "now"},
+    "impressions" : {"paths": ["BW_Daily", "DV_Daily"], "key": "impressions", "type": "primary", "agg": "sum"},
+    "clicks" : {"paths": ["BW_Daily", "DV_Daily"], "key": "clicks", "type": "primary", "agg": "sum"},
+    "measurable" : {"paths": ["BW_Daily", "DV_Daily"], "key": "measureable", "type": "primary", "agg": "sum"},
+    "viewable" : {"paths": ["BW_Daily", "DV_Daily"], "key": "viewability", "type": "primary", "agg": "sum"},
+    "Video Completes" : {"paths": ["BW_Daily", "DV_Daily"], "key": "video_completes", "type": "primary", "agg": "sum"},
+    "Conversions" : {"paths": ["BW_Daily", "DV_Daily"], "key": "conversions", "type": "primary", "agg": "sum"},
+    "Country" : {"paths": ["BW_Daily", "DV_Daily"], "key": "geo_country", "type": "primary", "agg": "key"},
+    "Province" : {"paths": ["BW_Daily", "DV_Daily"], "key": "geo_metro", "type": "primary", "agg": "key"},
+    "app" : {"paths": ["BW_Daily", "DV_Daily"], "key": "app", "type": "primary", "agg": "key"},
+    "domain" : {"paths": ["BW_Daily", "DV_Daily"], "key": "domain", "type": "primary", "agg": "key"},
+    "city" : {"paths": ["BW_Daily", "DV_Daily"], "key": "geo_city", "type": "primary", "agg": "key"},
+    "KPI1" : {"paths": ["SF_Report"], "key": "Primary_KPI", "type": "composite", "fk" : "SFID", "ck"  : "line_item_alternative_id"},
+    "KPI2" : {"paths": ["SF_Report"], "key": "Secondary_KPI", "type": "composite", "fk" : "SFID", "ck"  : "line_item_alternative_id"},
+    "Rate_Type" : {"paths": ["SF_Report"], "key": "Rate_Type", "type": "composite", "fk" : "SFID", "ck"  : "line_item_alternative_id"}
+}

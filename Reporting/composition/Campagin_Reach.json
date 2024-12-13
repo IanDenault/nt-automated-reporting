@@ -1,0 +1,4 @@
+{
+    "line_item_alternative_id" : {"paths": ["BW_li_reach"], "key": "Line Item Alternative ID", "type": "primary", "agg": "None"},
+    "Reach" : {"paths": ["BW_li_reach"], "key": "Reach", "type": "primary", "agg": "None"}
+}
