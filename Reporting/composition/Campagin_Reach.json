@@ -1,4 +1,1 @@
-{
-    "line_item_alternative_id" : {"paths": ["BW_li_reach"], "key": "Line Item Alternative ID", "type": "primary", "agg": "None"},
-    "Reach" : {"paths": ["BW_li_reach"], "key": "Reach", "type": "primary", "agg": "None"}
-}
+[{"Line Item Alternative ID": "Waz0zIbKVL", "Reach": 53480}, {"Line Item Alternative ID": "FeCfhdgVCJ", "Reach": 39982}, {"Line Item Alternative ID": "dKTa4DlDAj", "Reach": 21691}, {"Line Item Alternative ID": "3jB8CnDCmZ", "Reach": 18964}, {"Line Item Alternative ID": "ggdR66eQIa", "Reach": 13685}, {"Line Item Alternative ID": "DK8v03yIpF", "Reach": 8462}]
